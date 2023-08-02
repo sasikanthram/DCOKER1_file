@@ -1,0 +1,4 @@
+FROM nginx:latest
+LABEL "author"="sasikanth.ram@gmail.com"
+COPY . /usr/share/nginx/html
+
